@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  bili_robot:
+    build:
+      ./
+    ports:
+      - 9080:8080
+      - 5700:5700
+      - 5800:5800
+    volumes:
+      - ./:/bili_robot
+      - /etc/timezone:/etc/timezone
+      - /etc/localtime:/etc/localtime
+    restart: always

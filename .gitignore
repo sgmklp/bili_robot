@@ -1,0 +1,8 @@
+bili_robot_logs
+data
+dumps
+logs
+*.bak
+test.js
+session.token
+go-cqhttp/config.yml
